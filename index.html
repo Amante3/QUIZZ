@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn HTML - Basics & Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html">Html</a></li>
+          <li><a href="./index.html">Css</a></li>
+          <li><a href="./index.html">Javascript</a></li>
+        </ul>
+      </nav>
+      <form action="/resultado-da-pesquisa" method="GET" class="search-form">
+        <input type="search" name="q" placeholder="Pesquisar..." />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+    <h1>Introduction to HTML</h1>
+    <p class="front-page-paragraphs">
+      HTML (HyperText Markup Language) is the standard language used to create
+      web pages.
+    </p>
+
+    <h2>HTML Quiz</h2>
+    <h3>
+      <a href="https://www.w3schools.com/html/html_intro.asp"
+        >Learn about Html</a>
+    </h3>
+    <p class="front-page-paragraphs" >Test your knowledge of HTML with this quick quiz!</p>
+    <div class="quiz">
+      <div id="question-container"></div>
+      <p id="feedback" class="incorrect front-page-paragraphs">❌ Incorrect! Try again.</p>
+      <p id="correct-feedback" class="correct front-page-paragraphs">
+        ✅ Correct! Moving to the next question...
+      </p>
+      
+    </div>
+
+    <script src="./javascript/script.js"></script>
+    <footer>&copy; 2025 RRE</footer>
+  </body>
+</html>
